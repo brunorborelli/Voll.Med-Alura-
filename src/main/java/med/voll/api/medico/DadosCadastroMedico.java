@@ -12,6 +12,7 @@ import med.voll.api.endereco.DadosEndereco;
 public record DadosCadastroMedico(
         @NotBlank
         String nome,
+        
         @NotBlank
         @Email
         String email,
@@ -24,5 +25,6 @@ public record DadosCadastroMedico(
         @NotNull
         Especialidade especialidade,
 
-        @NotNull @Valid DadosEndereco endereco) {
+        @NotNull @Valid 
+        DadosEndereco endereco) {
 }
