@@ -16,7 +16,7 @@ import med.voll.api.endereco.Endereco;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class medico {
+public class Medico {
 
     
 
@@ -35,7 +35,7 @@ public class medico {
 
     private Boolean ativo;
 
-    public medico(DadosCadastroMedico dados) {
+    public Medico(DadosCadastroMedico dados) {
         this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
