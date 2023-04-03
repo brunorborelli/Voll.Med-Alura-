@@ -9,3 +9,4 @@ Springboot Project with Java
 
 3. Cadastro Paciente (Patient) [000%] {  }
                                                 
+4. Apointment [000%] {  }
